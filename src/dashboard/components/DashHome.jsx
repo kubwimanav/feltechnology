@@ -1,5 +1,6 @@
 import React from 'react'
 import { IoIosNotifications } from "react-icons/io";
+import { MdFilterList } from "react-icons/md";
 import { GiShakingHands } from "react-icons/gi";
 import '../styles/DashHome.css'
 import image from '/image.jpg'
@@ -12,7 +13,7 @@ function DashHome() {
       ];
     let i = 0;
   return (
-    <div className='dashhomes'>
+    <div className="dashhomes">
       <div className="top">
         <input
           type="text"
@@ -81,11 +82,17 @@ function DashHome() {
           </div>
         </div>
       </div>
-      <div className='skils-table'>
+      <div className="skils-table">
         <div className="customtables">
           <div className="customtable">
             <p>Live Car Status</p>
-            <p>Filter</p>
+
+            <div style={{ display: "flex",gap:'20px' }}>
+              <div>
+                <MdFilterList  className='filtericon'/>
+              </div>
+              <p>Filter</p>
+            </div>
           </div>
 
           <table className="custom-table">
@@ -167,7 +174,14 @@ function DashHome() {
             </div>
           </div>
         </div>
-      </div>
+          </div>
+          
+
+     <div>
+              
+     </div>
+
+
     </div>
   );
 }

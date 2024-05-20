@@ -63,12 +63,14 @@
 }
 
  .custom-table td {
+    
   border-bottom: 1px solid white;
   padding: 5px;
   text-align: left;
 }
 
 .custom-table th {
+    
     border: none;
     font-size: 15px;
 }
@@ -78,7 +80,10 @@ tbody{
 .customtable{
 
     display: flex;
-    justify-content: space-between;
+    gap: 31rem;
+}
+.filtericon{
+    margin-top: 16px;
 }
 
 .customtables{
@@ -89,7 +94,7 @@ tbody{
    padding-right: 10px;
 
    border-radius: 10px;
-   width: 60%;
+   width: 70%;
 }
 
 .toolbarr{

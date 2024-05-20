@@ -57,9 +57,17 @@ text-decoration: none;
      width: 80%;
     border-radius: 10px;
     padding-left: 10px;
+    padding-bottom: 10px;
     padding-right: 10px;
     background-color: rgb(40,152,30);
     
+}
+.weekly button{
+    background-color: rgb(112, 108, 108);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
 }
 .icon{
     font-size: 12px;
