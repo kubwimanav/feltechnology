@@ -1,0 +1,66 @@
+.sidebar{
+    height: 95vh;
+    padding-top: 13px;
+    padding-left: 10px;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(52,60,69);
+    color: white;
+}
+.profile1{
+    display: flex;
+
+}
+.profile1 p{
+    font-size: 10px;
+}
+.profile{
+    width: 50px;
+    border-radius: 40%;
+    height: 50px;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+}
+.othermenus{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.linkside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.linkside li{
+display: flex;
+gap: 5px;
+color: white;
+list-style: none;
+text-decoration: none;
+}
+.list_dash{
+color: white;
+font-size: 13px;
+list-style: none;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+.logout{
+    color: white;
+    text-decoration: none;
+}
+.weekly{
+     width: 80%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(40,152,30);
+    
+}
+.icon{
+    font-size: 12px;
+}

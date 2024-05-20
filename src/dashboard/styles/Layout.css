@@ -1,0 +1,6 @@
+
+.layout{
+   display: grid;
+   grid-template-columns: 190px 1fr;
+    gap: 20px;
+}
