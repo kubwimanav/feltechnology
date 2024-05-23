@@ -24,17 +24,17 @@
     width: 100%;
 }
 
-th
+.thpayment
 {
     padding: 8px;
     text-align: center;
 }
- td {
+ .tdpayment {
     padding: 10px;
     text-align: center;
 }
 
-th {
+.thpayment{
     color: white;
 }
 

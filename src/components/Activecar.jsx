@@ -169,15 +169,15 @@ const tableData = [
           <table className="tablepayment">
             <thead className="header-images">
               <tr className="header-ima">
-                <th>No</th>
-                <th>CarDriver</th>
-                <th>Phone</th>
-                <th>Date</th>
-                <th>Cartype</th>
-                <th>ReturnDate</th>
-                <th>Type</th>
-                <th>Totalprice</th>
-                <th>Action</th>
+                <th className="thactive">No</th>
+                <th className="thactive">CarDriver</th>
+                <th className="thactive">Phone</th>
+                <th className="thactive">Date</th>
+                <th className="thactive">Cartype</th>
+                <th className="thactive">ReturnDate</th>
+                <th className="thactive">Type</th>
+                <th className="thactive">Totalprice</th>
+                <th className="thactive">Action</th>
               </tr>
             </thead>
             <tbody>
@@ -187,14 +187,14 @@ const tableData = [
                     <MdDashboard className="icon" />
                     <p>#{(i += 1)}</p>
                   </td>
-                  <td>
+                  <td className="tdactive ">
                     <img src={data.image} className="dataimage" />
                   </td>
-                  <td>{data.name}</td>
-                  <td>{data.date}</td>
-                  <td>{data.cartype}</td>
-                  <td>{data.date}</td>
-                  <td>{data.type}</td>
+                  <td className="tdactive ">{data.name}</td>
+                  <td className="tdactive ">{data.date}</td>
+                  <td className="tdactive ">{data.cartype}</td>
+                  <td className="tdactive ">{data.date}</td>
+                  <td className="tdactive ">{data.type}</td>
                   <td className="totalprice">{data.amount}</td>
                   <td className="activeedit-delite">
                     <MdEdit />
@@ -206,7 +206,6 @@ const tableData = [
           </table>
         </div>
       </div>
-
     </div>
   );
 }

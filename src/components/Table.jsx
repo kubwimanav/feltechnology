@@ -28,7 +28,7 @@ function Table() {
           <table className="custom-table">
             <thead>
               <tr className='tablehead'>
-                <th>No</th>
+                <th >No</th>
                 <th>CarNo</th>
                 <th>Driver</th>
                 <th>Status</th>
@@ -44,7 +44,7 @@ function Table() {
                   <td>{row.carNo}</td>
                   <td>{row.age}</td>
                   <td>
-                    <button>details</button>
+                    <button className='buttontable'>details</button>
                   </td>
                 </tr>
               ))}

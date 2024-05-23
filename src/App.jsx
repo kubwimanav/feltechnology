@@ -23,7 +23,7 @@ function App() {
           <Route index element={<DashHome />} />
           <Route path="payment" element={<Payment />} />
           <Route path="activecar" element={<Activecar />} />
-          <Route path="helpcenter" element={<Helpcenter/>} />
+          <Route path="helpcenter" element={<Helpcenter />} />
           <Route path="/setting" element={<Setting />}>
             <Route index element={<Settingform />} />
             <Route path="settingform" element={<Settingform />} />

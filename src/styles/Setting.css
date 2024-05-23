@@ -11,8 +11,8 @@
 .settingcard{
     display: flex;
     background-color: rgb(37,43,49);
-    width: 17%;
-    height: 52%;
+    width: 30%;
+    height: 91%;
     padding: 15px;
     gap: 10px;
     border-radius: 10px;
@@ -20,4 +20,13 @@
 }
 .settingparagraph2{
     font-size: 10px;
+}
+.setting-page-link{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.setting-page-link-link{
+   text-decoration: none; 
+   list-style: none;
 }

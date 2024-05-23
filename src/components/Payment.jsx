@@ -84,9 +84,9 @@ function Payment() {
       <div className="tablepaymentparagraph">
         <p className="paragraphtable1">Payment Details</p>
         <p className="paragraphtable2">
-          <CiStopwatch  className="tableicon "/>
+          <CiStopwatch className="tableicon " />
           Last 30 days
-          <RiArrowDropDownLine  className="tableicon"/>
+          <RiArrowDropDownLine className="tableicon" />
         </p>
       </div>
 
@@ -94,29 +94,29 @@ function Payment() {
         <table className="tablepayment">
           <thead className="head">
             <tr className="header-images">
-              <th>
+              <th className="thpayment">
                 <MdDashboard className="icon" />
               </th>
-              <th >Car</th>
-              <th>Transaction</th>
-              <th>Date</th>
-              <th>Amount</th>
-              <th>Status</th>
+              <th className="thpayment">Car</th>
+              <th className="thpayment">Transaction</th>
+              <th className="thpayment">Date</th>
+              <th className="thpayment">Amount</th>
+              <th className="thpayment">Status</th>
             </tr>
           </thead>
           <tbody>
             {tableData.map((data) => (
               <tr>
-                <td>
+                <td className="tdpayment">
                   <MdDashboard className="icon" />
                 </td>
-                <td>
+                <td className="tdpayment">
                   <img src={data.image} className="dataimage" />
                 </td>
-                <td>{data.name}</td>
-                <td>{data.date}</td>
-                <td>{data.amount}</td>
-                <td>{data.status}</td>
+                <td className="tdpayment">{data.name}</td>
+                <td className="tdpayment">{data.date}</td>
+                <td className="tdpayment">{data.amount}</td>
+                <td className="tdpayment">{data.status}</td>
               </tr>
             ))}
           </tbody>
