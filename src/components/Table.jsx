@@ -13,99 +13,112 @@ function Table() {
          let i = 0;
   return (
     <div className="skils-table">
-        <div className="customtables">
-          <div className="customtable">
-            <p>Live Car Status</p>
+      <div className="customtables">
+        <div className="customtable">
+          <p>Live Car Status</p>
 
-            <div style={{ display: "flex",gap:'20px' }}>
-              <div>
-                <MdFilterList  className='filtericon'/>
-              </div>
-              <p>Filter</p>
+          <div style={{ display: "flex", gap: "20px" }}>
+            <div>
+              <MdFilterList className="filtericon" />
             </div>
+            <p>Filter</p>
           </div>
-
-          <table className="custom-table">
-            <thead>
-              <tr className='tablehead'>
-                <th >No</th>
-                <th>CarNo</th>
-                <th>Driver</th>
-                <th>Status</th>
-                <th>Earnings</th>
-              </tr>
-            </thead>
-            <tbody>
-              {data.map((row) => (
-                <tr key={row.id}>
-                  <td>{row.id}</td>
-                  <td>{row.carNo}</td>
-                      <td><img src={ made}  className='tableimage'/>{row.name}</td>
-                  <td>{row.carNo}</td>
-                  <td>{row.age}</td>
-                  <td>
-                    <button className='buttontable'>details</button>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
         </div>
-        <div className="skills">
-          <p className="skillsparagraph">Top 5 Car rented out</p>
-          <div>
-            <div className="skillstext">
-              <p>sportcar</p>
-              <p>45651</p>
-            </div>
 
-            <div className="toolbarr">
-              <div className="spanbar">
-                <span className="divbar">90%</span>
-              </div>
-            </div>
+        <table className="custom-table">
+          <thead>
+            <tr className="tablehead">
+              <th>No</th>
+              <th>CarNo</th>
+              <th>Driver</th>
+              <th>Status</th>
+              <th>Earnings</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((row) => (
+              <tr key={row.id}>
+                <td>{row.id}</td>
+                <td>{row.carNo}</td>
+                <td>{row.name}</td>
+                <td>{row.carNo}</td>
+                <td>{row.age}</td>
+                <td>
+                  <button className="buttontable">details</button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="skills">
+        <p className="skillsparagraph">Top 5 Car rented out</p>
+        <div>
+          <div className="skillstext">
+            <p>sportcar</p>
+            <p>45651</p>
           </div>
 
-          <div>
-            <div className="skillstext">
-              <p>sportcar</p>
-              <p>45651</p>
-            </div>
-
-            <div className="toolbarr">
-              <div className="spanbar">
-                <span className="divbar">90%</span>
-              </div>
+          <div className="toolbarr">
+            <div className="spanbar">
+              <span className="divbar">90%</span>
             </div>
           </div>
+        </div>
 
-          <div>
-            <div className="skillstext">
-              <p>sportcar</p>
-              <p>45651</p>
-            </div>
+        <div>
+          <div className="skillstext">
+            <p>sportcar</p>
+            <p>45651</p>
+          </div>
 
-            <div className="toolbarr">
-              <div className="spanbar">
-                <span className="divbar">90%</span>
-              </div>
+          <div className="toolbarr">
+            <div className="spanbar">
+              <span className="divbar">90%</span>
             </div>
           </div>
-          <div>
-            <div className="skillstext">
-              <p>sportcar</p>
-              <p>45651</p>
-            </div>
+        </div>
 
-            <div className="toolbarr">
-              <div className="spanbar">
-                <span className="divbar">90%</span>
-              </div>
+        <div>
+          <div className="skillstext">
+            <p>sportcar</p>
+            <p>45651</p>
+          </div>
+
+          <div className="toolbarr">
+            <div className="spanbar">
+              <span className="divbar">90%</span>
             </div>
           </div>
-          </div> 
+        </div>
+
+        <div>
+          <div className="skillstext">
+            <p>sportcar</p>
+            <p>45651</p>
           </div>
-  )
+
+          <div className="toolbarr">
+            <div className="spanbar">
+              <span className="divbar">90%</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="skillstext">
+            <p>sportcar</p>
+            <p>45651</p>
+          </div>
+
+          <div className="toolbarr">
+            <div className="spanbar">
+              <span className="divbar">90%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Table

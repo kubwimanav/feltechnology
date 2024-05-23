@@ -2,6 +2,9 @@
     display: flex;
     gap: 15px;
 }
+.chart-chart{
+    width: 10rem;
+}
 .chartcard{
     display: flex;
     flex-direction: column;
@@ -22,7 +25,7 @@
 }
 .chart-paragraph{
     display: flex;
-    gap: 35px;
+    gap: 45px;
 }
 .chart-paragraph2{
     font-size: 11px;
