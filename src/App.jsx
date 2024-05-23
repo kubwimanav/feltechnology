@@ -1,12 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Layout from './dashboard/components/Layout'
-import DashHome from './dashboard/components/DashHome'
-import Payment from './dashboard/components/Payment'
-import Setting from './dashboard/components/Setting'
+import Layout from './components/Layout';
+import DashHome from './components/DashHome';
+import Payment from './components/Payment';
+import Setting from './components/Setting';
+import Activecar from './components/Activecar';
+import Settingform from './components/Settingform';
+import License from './components/License';
+import Notification from './components/Notification';
+import Account from './components/Account';
+import Changepassword from './components/Changepassword';
+import Helpcenter from './components/Helpcenter';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,8 +21,17 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<DashHome />} />
-          <Route path="home" element={<Payment />} />
-          <Route path="settings" element={<Setting/>} />
+          <Route path="payment" element={<Payment />} />
+          <Route path="activecar" element={<Activecar />} />
+          <Route path="helpcenter" element={<Helpcenter/>} />
+          <Route path="/setting" element={<Setting />}>
+            <Route index element={<Settingform />} />
+            <Route path="settingform" element={<Settingform />} />
+            <Route path="license" element={<License />} />
+            <Route path="notification" element={<Notification />} />
+            <Route path="account" element={<Account />} />
+            <Route path="changepassword" element={<Changepassword />} />
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>

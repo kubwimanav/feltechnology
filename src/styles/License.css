@@ -1,0 +1,18 @@
+.license1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 53%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(37,43,49);
+}
+.buttonlicense{
+    background-color: rgb(40, 170, 40);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.license{
+        height: 49.7%;
+}

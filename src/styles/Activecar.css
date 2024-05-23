@@ -1,0 +1,43 @@
+
+.activecar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.activecard1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    background-color: rgb(37,43,49);
+    width: 165px;
+    gap: 5px;
+    height: 100%;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.activecard1 img{
+    width: 50%;
+}
+.activecard12{
+    display: flex;
+    gap: 10px;
+}
+.activecard{
+    display: flex;
+    gap: 20px;
+}
+.id-icon{
+    display: flex;
+    gap: 3px;
+}
+.activeedit-delite{
+    display: flex;
+    gap: 5px;
+}
+.active-delite{
+    background-color: rgb(40, 170, 40);
+color: rgb(40, 170, 40);
+}

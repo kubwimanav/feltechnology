@@ -1,0 +1,98 @@
+.custom-table {
+ display: flex;
+ flex-direction: column;
+  width: 100%;
+  border-collapse: collapse;
+}
+.tableimage{
+    width: 20px ;
+    height: 20px;
+    border-radius: 10px;
+}
+ .custom-table td {
+    width: 10rem;
+    border-bottom: 1px solid white;
+    padding: 7px;
+}
+
+.tablehead{
+    display: flex;
+    gap: 70px;
+    padding: 5px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid white; 
+}
+tbody{
+    font-size: 14px;
+}
+.customtable{
+
+    display: flex;
+    gap: 25rem;
+}
+
+
+.customtables{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    background-color: rgb(52,60,69);
+   padding-bottom: 25px;
+    padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 15px;
+   border-radius: 10px;
+   width: 59%;
+}
+
+.toolbarr{
+    width: 100%;
+    height: 10px;
+    background-color: antiquewhite;
+}
+/* .toolbar{
+    width: 100%;
+} */
+.spanbar{
+    position: relative;
+    display: block;
+    background-color: blue;
+    height: 100%;
+    width: 80%;
+}
+.divbar{
+    position: absolute;
+    font-size: 7px;
+    right: -20px;
+
+}
+.skills{
+    
+    background-color: rgb(52,60,69);
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 25px;
+    width: 10rem;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 6px;
+    
+}
+.skillstext{
+    gap: 80px;
+    font-size: 10px;
+    color: white;
+   display: flex;
+}
+.skillsparagraph{
+    font-size: 14px;
+    color: white;
+}
+.skils-table{
+    display: flex;
+    gap: 40px;
+}
