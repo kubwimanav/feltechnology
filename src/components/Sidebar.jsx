@@ -16,7 +16,10 @@ function Sidebar() {
       <div className="profile12">
         <div className="profile1">
           <img src={profile} className="profile" />
-          <p>Access Transport Company</p>
+          <div className="profile-header-para">
+            <p className="profile-header-para1">Access Transport</p>
+            <p className="profile-header-para2"> Company</p>
+          </div>
         </div>
         <div className="othermenus">
           <div className="menu">
@@ -30,12 +33,12 @@ function Sidebar() {
               </li>
               <li>
                 <RiLockPasswordLine className="icon" />
-                <Link to="/" className="list_dash">
+                <Link to="listening" className="list_dash">
                   Listening
                 </Link>
               </li>
               <li>
-                <HiOutlineClock  className="icon" />
+                <HiOutlineClock className="icon" />
                 <Link to="activecar" className="list_dash">
                   Active Cars
                 </Link>
@@ -47,9 +50,9 @@ function Sidebar() {
             <div className="linkside">
               <li>
                 <RiSecurePaymentLine className="icon" />
-                <a href="payment" className="list_dash">
+                <Link href="payments" className="list_dash">
                   Payments Details
-                </a>
+                </Link>
               </li>
               <li>
                 <IoMdSettings className="icon" />
@@ -73,7 +76,7 @@ function Sidebar() {
           </div>
         </div>
       </div>
-      <Link to="logout" className="logout">
+      <Link to="login" className="logout">
         <CgLogOut />
         Logout
       </Link>

@@ -1,6 +1,6 @@
 .chart-chartcard{
     display: flex;
-    gap: 15px;
+    gap: 18px;
 }
 .chart-chart{
     width: 10rem;
@@ -11,7 +11,7 @@
     width: 91%;
     padding: 10px;
     border-radius: 10px;
-    gap: 15px;
+    gap: 10px;
      background-color:rgb(37,43,49);
 }
 .Chart-card-1{
@@ -25,7 +25,7 @@
 }
 .chart-paragraph{
     display: flex;
-    gap: 45px;
+    gap: 42px;
 }
 .chart-paragraph2{
     font-size: 11px;

@@ -5,32 +5,23 @@
     text-align: center;
 }
 
-.App-header {
-    background-color: #282c34;
-    border-radius: 15px;
-    min-height: 46vh;
-    width: 63rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
+
 
 .tablepayment {
-    padding: 10px;
+    background-color: #282c34;
     border-collapse: collapse;
+    border-radius: 10px;
     width: 100%;
 }
 
 .thpayment
 {
+    background-color: #4CAF50;
     padding: 8px;
     text-align: center;
 }
  .tdpayment {
-    padding: 10px;
+    padding: 12px 15px 12px 15px ;
     text-align: center;
 }
 
@@ -39,9 +30,9 @@
 }
 
 .header-images{
-    font-size: 15px;
+   
+    font-size: 14px;
     border-radius: 10px;
-    background-color: #4CAF50;
 }
 
 
@@ -51,7 +42,7 @@
     height: 100px;
 }
 .tablepaymentparagraph{
-    width: 63rem;
+    width: 59rem;
     display: flex;
     justify-content: space-between;
 }

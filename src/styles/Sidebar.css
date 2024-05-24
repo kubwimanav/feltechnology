@@ -37,6 +37,20 @@
 .profile1 p{
     font-size: 10px;
 }
+.profile-header-para{
+    display: flex; 
+    gap: 2px;
+}
+.profile-header-para1{
+    color: rgb(51,93,184);
+border-bottom: 1px solid rgb(51,93,184);
+ 
+}
+.profile-header-para2{
+    color: rgb(40, 170, 40);
+ border-bottom: 1px solid rgb(40, 170, 40);
+ 
+}
 .profile{
     width: 50px;
      border-bottom: 3px solid rgb(51,93,184);
@@ -110,5 +124,4 @@ text-decoration: none;
 .profile1 p{
     margin-top: 20px;
     height: 13px;
-    border-bottom: 1px solid red;
 }

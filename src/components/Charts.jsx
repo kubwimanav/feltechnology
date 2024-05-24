@@ -63,7 +63,7 @@ export default class Example extends PureComponent {
   render() {
     return (
       <div className="chart-chartcard">
-        <ResponsiveContainer width="67%" height={200} className=''>
+        <ResponsiveContainer width="77%" height={200} className=''>
           <AreaChart
             width={500}
             height={200}

@@ -6,7 +6,7 @@ import '../styles/Payment.css'
 const tableData = [
   {
     id: 1,
-    image: "pexels2.jpg",
+    image: "pexels5.png",
     email: "example1@example.com",
     name: "payment from king",
     date: "12.3.2024",
@@ -15,7 +15,7 @@ const tableData = [
   },
   {
     id: 2,
-    image: "pexels4.jpg",
+    image: "pexels5.png",
     email: "example2@example.com",
     name: "payment from king",
     date: "12.3.2024",
@@ -24,7 +24,7 @@ const tableData = [
   },
   {
     id: 3,
-    image: "pexels2.jpg",
+    image: "pexels5.png",
     email: "example3@example.com",
     name: "payment from king",
     date: "12.3.2024",
@@ -33,7 +33,7 @@ const tableData = [
   },
   {
     id: 4,
-    image: "pexels5.jpg",
+    image: "pexels5.png",
     email: "example4@example.com",
     name: "payment from king",
     date: "12.3.2024",
@@ -42,7 +42,7 @@ const tableData = [
   },
   {
     id: 5,
-    image: "pexels4.jpg",
+    image: "pexels5.png",
     email: "example5@example.com",
     name: "payment from king",
     date: "12.3.2024",
@@ -51,7 +51,7 @@ const tableData = [
   },
   {
     id: 6,
-    image: "pexels3.jpg",
+    image: "pexels5.png",
     email: "example6@example.com",
     name: "payment from king",
     date: "12.3.2024",
@@ -60,7 +60,7 @@ const tableData = [
   },
   {
     id: 6,
-    image: "pexels2.jpg",
+    image: "pexels5.png",
     email: "example6@example.com",
     name: "payment from king",
     date: "12.3.2024",
@@ -69,7 +69,7 @@ const tableData = [
   },
   {
     id: 6,
-    image: "pexels1.jpg",
+    image: "pexels5.png",
     email: "example6@example.com",
     name: "payment from king",
     date: "12.3.2024",
@@ -90,7 +90,7 @@ function Payment() {
         </p>
       </div>
 
-      <header className="App-header">
+      <header >
         <table className="tablepayment">
           <thead className="head">
             <tr className="header-images">

@@ -27,12 +27,13 @@ function Table() {
 
         <table className="custom-table">
           <thead>
-            <tr className="tablehead">
-              <th>No</th>
-              <th>CarNo</th>
-              <th>Driver</th>
-              <th>Status</th>
-              <th>Earnings</th>
+            <tr>
+              <th className="tablehead">No</th>
+              <th className="tablehead">CarNo</th>
+              <th className="tablehead">Driver</th>
+              <th className="tablehead">Status</th>
+              <th className="tablehead">Earnings</th>
+              <th className="tablehead">Action</th>
             </tr>
           </thead>
           <tbody>
