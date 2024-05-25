@@ -77,7 +77,7 @@ function Sidebar() {
         </div>
       </div>
       <Link to="login" className="logout">
-        <CgLogOut />
+        <CgLogOut  style={{color:'red'}}/>
         Logout
       </Link>
     </div>

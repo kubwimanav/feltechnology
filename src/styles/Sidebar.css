@@ -118,6 +118,10 @@ text-decoration: none;
 .icon{
     font-size: 15px;
 }
+.logouticon{
+    font-size: 15px ;
+    color: red;
+}
 .menu{
     display: flex;
     flex-direction: column;

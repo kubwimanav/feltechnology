@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Cards.css'
-import pixel1 from "/pexels.jpg";
-import coins from "/dollarcoin.jpg";
+import pixel1 from "/pexels3.png";
+import coins from "/dollaricon.png";
 import image from '/image.jpg'
 function Cards() {
   return (

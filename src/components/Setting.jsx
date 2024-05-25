@@ -1,5 +1,8 @@
 import React from 'react'
-import { IoIosSettings } from "react-icons/io";
+import { RiSecurePaymentFill } from "react-icons/ri";
+import { IoIosSettings, IoIosNotifications,IoMdKey,IoMdHeart} from "react-icons/io";
+import { MdLanguage } from "react-icons/md";
+import { BsFillPersonFill } from "react-icons/bs";
 import '../styles/Setting.css'
 import { Link, Outlet } from 'react-router-dom';
 function Setting() {
@@ -17,7 +20,7 @@ function Setting() {
         </div>
 
         <div className="settingpage">
-          <IoIosSettings className="settingicon" />
+          <BsFillPersonFill className="settingicon" />
           <div className="setting-page-link">
             <Link to="account" className="setting-page-link-link">
               Account
@@ -26,7 +29,7 @@ function Setting() {
           </div>
         </div>
         <div className="settingpage">
-          <IoIosSettings className="settingicon" />
+          <IoIosNotifications className="settingicon" />
           <div className="setting-page-link">
             <Link to="notification" className="setting-page-link-link">
               Notification
@@ -37,7 +40,7 @@ function Setting() {
           </div>
         </div>
         <div className="settingpage">
-          <IoIosSettings className="settingicon" />
+          <MdLanguage className="settingicon" />
           <div className="setting-page-link">
             <Link className="setting-page-link-link">Language</Link>
 
@@ -45,7 +48,7 @@ function Setting() {
           </div>
         </div>
         <div className="settingpage">
-          <IoIosSettings className="settingicon" />
+          <IoMdKey className="settingicon" />
           <div className="setting-page-link">
             <Link to="changepassword" className="setting-page-link-link">
               changePassword
@@ -54,7 +57,7 @@ function Setting() {
           </div>
         </div>
         <div className="settingpage">
-          <IoIosSettings className="settingicon" />
+          <IoMdHeart className="settingicon" />
           <div className="setting-page-link">
             <Link to="license" className="setting-page-link-link">
               License
@@ -63,11 +66,9 @@ function Setting() {
           </div>
         </div>
         <div className="settingpage">
-          <IoIosSettings className="settingicon" />
+          <RiSecurePaymentFill  className="settingicon" />
           <div className="setting-page-link">
-            <Link
-              className="setting-page-link-link">
-              PaymentMethod</Link>
+            <Link className="setting-page-link-link">PaymentMethod</Link>
             <p className="settingparagraph2">Means Of Payments</p>
           </div>
         </div>
