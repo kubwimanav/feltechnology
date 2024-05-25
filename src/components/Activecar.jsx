@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { CiStopwatch } from "react-icons/ci";
 import { MdEdit } from "react-icons/md";
 import { RiArrowDropDownLine, RiDeleteBin6Line } from "react-icons/ri";
 import { MdDashboard, MdOutlineHelp } from "react-icons/md";
 import activeimage from '/pexels5.png'
 import '../styles/Activecar.css'
+import Addcar from './Addcar';
 function Activecar() {
 
 const tableData = [
@@ -97,13 +98,22 @@ const tableData = [
     status: "pending",
   },
     ];
-    let i = 0;
+  let i = 0;
+    const [openModel, setOpenModel] = useState(false);
+
+    const handlemadal = () => {
+      setOpenModel(!openModel);
+    };
+
 
   return (
-    <div className='active'>
+    <div className="active">
+      {openModel && <Addcar handlemadal={handlemadal} />}
       <div className="tableactiveparagraph">
         <p className="paragraphtable1">Payment Details</p>
-        <p className="paragraphtable2">Add a car</p>
+        <p className="paragraphtable2" onClick={handlemadal} >
+          Add a car
+        </p>
       </div>
       <div className="activecar">
         <div className="activecard">
@@ -165,46 +175,45 @@ const tableData = [
             <img src={activeimage} />
           </div>
         </div>
-     
-          <table className="tableactive">
-            <thead className="header-images">
-              <tr className="header-imag">
-                <th className="thactive">No</th>
-                <th className="thactive">CarDriver</th>
-                <th className="thactive">Phone</th>
-                <th className="thactive">Date</th>
-                <th className="thactive">Cartype</th>
-                <th className="thactive">ReturnDate</th>
-                <th className="thactive">Type</th>
-                <th className="thactive">Totalprice</th>
-                <th className="thactive">Action</th>
+
+        <table className="tableactive">
+          <thead className="header-images">
+            <tr className="header-imag">
+              <th className="thactive">No</th>
+              <th className="thactive">CarDriver</th>
+              <th className="thactive">Phone</th>
+              <th className="thactive">Date</th>
+              <th className="thactive">Cartype</th>
+              <th className="thactive">ReturnDate</th>
+              <th className="thactive">Type</th>
+              <th className="thactive">Totalprice</th>
+              <th className="thactive">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {tableData.map((data) => (
+              <tr>
+                <td className="id-icon">
+                  <MdDashboard className="icon" />
+                  <p>#{(i += 1)}</p>
+                </td>
+                <td className="tdactive ">
+                  <img src={data.image} className="dataimage" />
+                </td>
+                <td className="tdactive ">{data.name}</td>
+                <td className="tdactive ">{data.date}</td>
+                <td className="tdactive ">{data.cartype}</td>
+                <td className="tdactive ">{data.date}</td>
+                <td className="tdactive ">{data.type}</td>
+                <td className="totalprice">{data.amount}</td>
+                <td className="activeedit-delite">
+                  <MdEdit />
+                  <RiDeleteBin6Line className="active-delite" />
+                </td>
               </tr>
-            </thead>
-            <tbody>
-              {tableData.map((data) => (
-                <tr>
-                  <td className="id-icon">
-                    <MdDashboard className="icon" />
-                    <p>#{(i += 1)}</p>
-                  </td>
-                  <td className="tdactive ">
-                    <img src={data.image} className="dataimage" />
-                  </td>
-                  <td className="tdactive ">{data.name}</td>
-                  <td className="tdactive ">{data.date}</td>
-                  <td className="tdactive ">{data.cartype}</td>
-                  <td className="tdactive ">{data.date}</td>
-                  <td className="tdactive ">{data.type}</td>
-                  <td className="totalprice">{data.amount}</td>
-                  <td className="activeedit-delite">
-                    <MdEdit />
-                    <RiDeleteBin6Line className="active-delite" />
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-      
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );

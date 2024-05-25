@@ -20,7 +20,7 @@
     width: 12.5rem;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     background-color: rgb(52,60,69);
     color: white;
 }
@@ -83,7 +83,7 @@ text-decoration: none;
 }
 .list_dash{
 color: white;
-font-size: 14px;
+ font-size: 13px;
 list-style: none;
 font-family: Arial, Helvetica, sans-serif;
 text-decoration: none;
@@ -93,23 +93,30 @@ text-decoration: none;
     text-decoration: none;
 }
 .weekly{
-     width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+     width: 60%;
+     font-size: 13px;
     border-radius: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    padding: 10px 15px 10px 15px;
     background-color: rgb(40,152,30);
     
+}
+.weeklypargraph{
+    font-size: 10px;
 }
 .weekly button{
     background-color: rgb(112, 108, 108);
     color: white;
-    padding: 8px;
+    padding: 7px 20px 7px 20px;
     border: none;
     border-radius: 5px;
 }
 .icon{
-    font-size: 12px;
+    font-size: 15px;
 }
 .menu{
     display: flex;

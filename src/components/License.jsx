@@ -5,8 +5,8 @@ function License() {
         <div className='license'>
             <button className="buttonlicense">Edit  terms & conditions</button>
          <div className='license1'>
-      <p>Terms & Condition</p>
-      <p>
+        <p>Terms & Condition</p>
+        <p>
         We will approve link requests from these organizations if we decide
         that: the link would not make us look unfavorably to ourselves or to
         our accredited businesses; the organization does not have any
@@ -15,8 +15,7 @@ function License() {
         the link is in the context of general resource information. These
         organizations may link to our home page so long as the link: is not
         in any way deceptive;  does not falsely imply sponsorship,
-        endorsement, or approval of the linking party and its products or
-        services; andfits within the context of the linking party’s site.
+        endorsement
       </p>
     </div>
     </div>

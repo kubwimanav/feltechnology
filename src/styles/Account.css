@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 86%;
     border-radius: 10px;
-    padding: 25px;
+     padding: 25px 70px 25px 70px;
     background-color:rgb(37,43,49);
 }
 .account-input-label-par{

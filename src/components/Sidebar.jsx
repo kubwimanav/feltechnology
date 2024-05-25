@@ -70,9 +70,9 @@ function Sidebar() {
           </div>
 
           <div className="weekly">
-            <p>weekly Report</p>
-            <p>Your weekly Report is ready for dawnload</p>
-            <button>Dawnload as Pdf</button>
+            <p> Weekly Report</p>
+            <p className="weeklypargraph">Your weekly Report is ready for dawnload</p>
+            <button>Dawnload</button>
           </div>
         </div>
       </div>

@@ -74,8 +74,8 @@ function Table() {
           </div>
 
           <div className="toolbarr">
-            <div className="spanbar">
-              <span className="divbar">90%</span>
+            <div className="spanbar1">
+              <span className="divbar1">72%</span>
             </div>
           </div>
         </div>
@@ -87,8 +87,8 @@ function Table() {
           </div>
 
           <div className="toolbarr">
-            <div className="spanbar">
-              <span className="divbar">90%</span>
+            <div className="spanbar2">
+              <span className="divbar2">59%</span>
             </div>
           </div>
         </div>
@@ -100,8 +100,8 @@ function Table() {
           </div>
 
           <div className="toolbarr">
-            <div className="spanbar">
-              <span className="divbar">90%</span>
+            <div className="spanbar3">
+              <span className="divbar3">49%</span>
             </div>
           </div>
         </div>
@@ -112,8 +112,8 @@ function Table() {
           </div>
 
           <div className="toolbarr">
-            <div className="spanbar">
-              <span className="divbar">90%</span>
+            <div className="spanbar4">
+              <span className="divbar4">39%</span>
             </div>
           </div>
         </div>

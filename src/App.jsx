@@ -14,6 +14,7 @@ import Changepassword from './components/Changepassword';
 import Helpcenter from './components/Helpcenter';
 import Listening from './components/Listening';
 import Login from './components/Login';
+import Addcar from './components/Addcar';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -36,7 +37,7 @@ function App() {
             <Route path="changepassword" element={<Changepassword />} />
           </Route>
         </Route>
-        <Route path='login' element={ <Login/>}/>
+        <Route path="login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );

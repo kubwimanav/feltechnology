@@ -16,7 +16,7 @@
    border-radius: 10px;
 } 
  .tablehead{
-    padding: 5px 30px 5px 30px;
+    padding: 5px 35px 5px 35px;
     font-size: 12px;
     border-bottom: 1px solid white;
 }
@@ -40,7 +40,8 @@ tbody{
 
  .toolbarr{
     width: 100%;
-    height: 7px;
+    height: 8px;
+    border-radius: 2px;
     background-color: antiquewhite;
 }
 .toolbar{
@@ -54,11 +55,78 @@ tbody{
     width: 80%;
 }
 .divbar{
+    color: black;
     position: absolute;
     font-size: 7px;
     right: -20px;
 
 }
+
+
+.spanbar1{
+    position: relative;
+    display: block;
+    background-color: blue;
+    height: 100%;
+    width: 72%;
+}
+.divbar1{
+    color: black;
+    position: absolute;
+    font-size: 7px;
+    right: -20px;
+
+}
+
+
+.spanbar2{
+    position: relative;
+    display: block;
+    background-color: blue;
+    height: 100%;
+    width: 59%;
+}
+.divbar2{
+    color: black;
+    position: absolute;
+    font-size: 7px;
+    right: -20px;
+
+}
+
+
+.spanbar3{
+    position: relative;
+    display: block;
+    background-color: blue;
+    height: 100%;
+    width: 49%;
+}
+.divbar3{
+    color: black;
+    position: absolute;
+    font-size: 7px;
+    right: -20px;
+
+}
+
+
+.spanbar4{
+    position: relative;
+    display: block;
+    background-color: blue;
+    height: 100%;
+    width: 39%;
+}
+.divbar4{
+    color: black;
+    position: absolute;
+    font-size: 7px;
+    right: -20px;
+
+}
+
+
 .skills{
     
     background-color: rgb(52,60,69);
