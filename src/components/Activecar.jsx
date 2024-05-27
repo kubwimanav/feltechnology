@@ -6,6 +6,7 @@ import { MdDashboard, MdOutlineHelp } from "react-icons/md";
 import activeimage from '/pexels5.png'
 import '../styles/Activecar.css'
 import Addcar from './Addcar';
+import { Link } from 'react-router-dom';
 function Activecar() {
 
 const tableData = [
@@ -126,7 +127,9 @@ const tableData = [
 
               <p>120,000/day</p>
             </div>
-            <img src={activeimage} />
+            <Link to='singlecar'>
+              <img src={activeimage} />
+            </Link>
           </div>
           <div className="activecard1">
             <div className="activecard12">
@@ -137,30 +140,9 @@ const tableData = [
 
               <p>120,000/day</p>
             </div>
-            <img src={activeimage} />
-          </div>
-
-          <div className="activecard1">
-            <div className="activecard12">
-              <div>
-                <p>Toyota ModelX</p>
-                <p>2021</p>
-              </div>
-
-              <p>120,000/day</p>
-            </div>
-            <img src={activeimage} />
-          </div>
-          <div className="activecard1">
-            <div className="activecard12">
-              <div>
-                <p>Toyota ModelX</p>
-                <p>2021</p>
-              </div>
-
-              <p>120,000/day</p>
-            </div>
-            <img src={activeimage} />
+            <Link to="singlecar">
+              <img src={activeimage} />
+            </Link>
           </div>
 
           <div className="activecard1">
@@ -172,7 +154,36 @@ const tableData = [
 
               <p>120,000/day</p>
             </div>
-            <img src={activeimage} />
+            <Link to="singlecar">
+              <img src={activeimage} />
+            </Link>
+          </div>
+          <div className="activecard1">
+            <div className="activecard12">
+              <div>
+                <p>Toyota ModelX</p>
+                <p>2021</p>
+              </div>
+
+              <p>120,000/day</p>
+            </div>
+            <Link to="singlecar">
+              <img src={activeimage} />
+            </Link>
+          </div>
+
+          <div className="activecard1">
+            <div className="activecard12">
+              <div>
+                <p>Toyota ModelX</p>
+                <p>2021</p>
+              </div>
+
+              <p>120,000/day</p>
+            </div>
+            <Link to="singlecar">
+              <img src={activeimage} />
+            </Link>
           </div>
         </div>
 

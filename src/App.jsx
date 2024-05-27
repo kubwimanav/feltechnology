@@ -27,11 +27,11 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<DashHome />} />
           <Route path="payments" element={<Payment />} />
-          <Route path="activecar" element={<Activecar />} />
+          <Route path="activecar" element={<Activecar />}/>
+          <Route path="activecar/singlecar" element={<Singleactive />} />
           <Route path="helpcenter" element={<Helpcenter />} />
           <Route path="listening" element={<Listening />} />
           <Route path="deal" element={<Deals />} />
-          <Route path="singlecar" element={<Singleactive />} />
           <Route path="/setting" element={<Setting />}>
             <Route index element={<Settingform />} />
             <Route path="settingform" element={<Settingform />} />

@@ -1,5 +1,6 @@
 import React from 'react'
 import { IoClose } from "react-icons/io5";
+import '../styles/Editform.css'
 function Editform({handlemodal}) {
   return (
       <div  className='editform'>

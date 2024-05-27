@@ -39,7 +39,7 @@ function Sidebar() {
                 </Link>
               </li>
               <li>
-                <MdOutlineAppBlocking  className="icon" />
+                <MdOutlineAppBlocking className="icon" />
                 <Link to="deal" className="list_dash">
                   Deals
                 </Link>
@@ -57,7 +57,7 @@ function Sidebar() {
             <div className="linkside">
               <li>
                 <RiSecurePaymentLine className="icon" />
-                <Link href="payments" className="list_dash">
+                <Link to="payments" className="list_dash">
                   Payments Details
                 </Link>
               </li>
