@@ -16,6 +16,7 @@ import Listening from './components/Listening';
 import Login from './components/Login';
 import Addcar from './components/Addcar';
 import Deals from './components/Deals';
+import Singleactive from './components/Singleactive';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,7 +30,8 @@ function App() {
           <Route path="activecar" element={<Activecar />} />
           <Route path="helpcenter" element={<Helpcenter />} />
           <Route path="listening" element={<Listening />} />
-          <Route path="deal" element={<Deals/>} />
+          <Route path="deal" element={<Deals />} />
+          <Route path="singlecar" element={<Singleactive />} />
           <Route path="/setting" element={<Setting />}>
             <Route index element={<Settingform />} />
             <Route path="settingform" element={<Settingform />} />
