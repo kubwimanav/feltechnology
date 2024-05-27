@@ -7,6 +7,7 @@ import { RiLockPasswordLine } from "react-icons/ri";
 import { RiSecurePaymentLine } from "react-icons/ri";
 import { MdDashboard, MdOutlineHelp } from "react-icons/md";
 import { IoMdSettings } from "react-icons/io";
+import { MdOutlineAppBlocking } from "react-icons/md";
 import '../styles/Sidebar.css'
 import { Link } from "react-router-dom";
 
@@ -35,6 +36,12 @@ function Sidebar() {
                 <RiLockPasswordLine className="icon" />
                 <Link to="listening" className="list_dash">
                   Listening
+                </Link>
+              </li>
+              <li>
+                <MdOutlineAppBlocking  className="icon" />
+                <Link to="deal" className="list_dash">
+                  Deals
                 </Link>
               </li>
               <li>
@@ -71,13 +78,15 @@ function Sidebar() {
 
           <div className="weekly">
             <p> Weekly Report</p>
-            <p className="weeklypargraph">Your weekly Report is ready for dawnload</p>
+            <p className="weeklypargraph">
+              Your weekly Report is ready for dawnload
+            </p>
             <button>Dawnload</button>
           </div>
         </div>
       </div>
       <Link to="login" className="logout">
-        <CgLogOut  style={{color:'red'}}/>
+        <CgLogOut style={{ color: "red" }} />
         Logout
       </Link>
     </div>

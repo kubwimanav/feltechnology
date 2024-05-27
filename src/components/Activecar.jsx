@@ -111,7 +111,7 @@ const tableData = [
       {openModel && <Addcar handlemadal={handlemadal} />}
       <div className="tableactiveparagraph">
         <p className="paragraphtable1">Payment Details</p>
-        <p className="paragraphtable2" onClick={handlemadal} >
+        <p className="paragraphtable2" onClick={handlemadal}>
           Add a car
         </p>
       </div>
