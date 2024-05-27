@@ -31,11 +31,12 @@ tbody{
     font-size: 14px;
 } 
 .customtable{
-
     display: flex;
-    gap: 25rem;
+    gap: 30rem;
 } 
-
+.customtable p{
+     font-size: 14px;
+}
 
 
  .toolbarr{
