@@ -108,8 +108,8 @@ function Deals() {
       </div>
 
       <table>
-        <thead className="deals-thead">
-          <tr >
+        <thead>
+          <tr className="deals-thead">
             <th>No</th>
             <th>Owner name</th>
             <th>Email</th>

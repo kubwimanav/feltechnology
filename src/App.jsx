@@ -17,6 +17,8 @@ import Login from './components/Login';
 import Addcar from './components/Addcar';
 import Deals from './components/Deals';
 import Singleactive from './components/Singleactive';
+import Loginform from './components/Loginform';
+import Forgetpassword from './components/Forgetpassword';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +29,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<DashHome />} />
           <Route path="payments" element={<Payment />} />
-          <Route path="activecar" element={<Activecar />}/>
+          <Route path="activecar" element={<Activecar />} />
           <Route path="activecar/singlecar" element={<Singleactive />} />
           <Route path="helpcenter" element={<Helpcenter />} />
           <Route path="listening" element={<Listening />} />
@@ -41,7 +43,10 @@ function App() {
             <Route path="changepassword" element={<Changepassword />} />
           </Route>
         </Route>
-        <Route path="login" element={<Login />} />
+        <Route path="login" element={<Login />}>
+          <Route index element={<Loginform />} />
+          <Route path='forget' element={<Forgetpassword />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

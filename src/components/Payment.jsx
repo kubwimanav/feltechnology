@@ -1,7 +1,7 @@
 import React from "react";
 import { CiStopwatch } from "react-icons/ci";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { MdDashboard, MdOutlineHelp } from "react-icons/md";
+import { MdDashboard} from "react-icons/md";
 import '../styles/Payment.css'
 const tableData = [
   {
