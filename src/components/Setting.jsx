@@ -42,7 +42,9 @@ function Setting() {
         <div className="settingpage">
           <MdLanguage className="settingicon" />
           <div className="setting-page-link">
-            <Link className="setting-page-link-link">Language</Link>
+            <Link to="changelanguage" className="setting-page-link-link">
+              Language
+            </Link>
 
             <p className="settingparagraph2">Change Your Language</p>
           </div>
@@ -66,9 +68,11 @@ function Setting() {
           </div>
         </div>
         <div className="settingpage">
-          <RiSecurePaymentFill  className="settingicon" />
+          <RiSecurePaymentFill className="settingicon" />
           <div className="setting-page-link">
-            <Link className="setting-page-link-link">PaymentMethod</Link>
+            <Link to="paymentmethod" className="setting-page-link-link">
+              PaymentMethod
+            </Link>
             <p className="settingparagraph2">Means Of Payments</p>
           </div>
         </div>

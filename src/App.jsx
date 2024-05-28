@@ -19,6 +19,10 @@ import Deals from './components/Deals';
 import Singleactive from './components/Singleactive';
 import Loginform from './components/Loginform';
 import Forgetpassword from './components/Forgetpassword';
+import Enternewpassword from './components/Enternewpassword';
+import Conformpassword from './components/Conformpassword';
+import Paymentmethod from './components/Paymentmethod';
+import Addlanguange from './components/Addlanguange';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -41,11 +45,19 @@ function App() {
             <Route path="notification" element={<Notification />} />
             <Route path="account" element={<Account />} />
             <Route path="changepassword" element={<Changepassword />} />
+            <Route path="paymentmethod" element={<Paymentmethod />} />
+            <Route path="changelanguage" element={<Addlanguange />} />
           </Route>
         </Route>
         <Route path="login" element={<Login />}>
           <Route index element={<Loginform />} />
-          <Route path='forget' element={<Forgetpassword />} />
+          <Route path="forget" element={<Forgetpassword />} />
+          <Route path="forget/change" element={<Changepassword />} />
+          <Route path="forget/entercode" element={<Enternewpassword />} />
+          <Route
+            path="forget/entercode/conform"
+            element={<Conformpassword />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>
